@@ -1,0 +1,21 @@
+{
+  imports = [
+    ./X11.nix
+    ./gc.nix
+    ./env.nix
+    ./boot.nix
+    ./user.nix
+    ./zram.nix
+    ./fonts.nix
+    ./nmhn.nix
+    ./locale.nix
+    ./sound.nix
+    ./opengl.nix
+    ./xserver.nix
+    ./printing.nix
+    ./services.nix
+    #./hyprland.nix
+    ./packages.nix
+    ./nixvim/nixvim.nix
+  ];
+}
